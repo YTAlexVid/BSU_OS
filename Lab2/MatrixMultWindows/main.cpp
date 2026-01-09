@@ -179,9 +179,9 @@ DWORD WINAPI multiplyMatricesBlocksInPlace(void *args) {
     int blockSize = ta->blockSize;
 
     int n = a.size();
-    int blockN = min(n, aBlockCoords.first + blockSize) - aBlockCoords.first;
-    int blockM = min(n, bBlockCoords.second + blockSize) - bBlockCoords.second;
-    int depth = min(n, aBlockCoords.second + blockSize) - aBlockCoords.second;
+    int blockN = std::min(n, aBlockCoords.first + blockSize) - aBlockCoords.first;
+    int blockM = std::min(n, bBlockCoords.second + blockSize) - bBlockCoords.second;
+    int depth = std::min(n, aBlockCoords.second + blockSize) - aBlockCoords.second;
 
     Matrix blockResult(blockN, Array(blockM));
     for (int i = 0; i < blockN; ++i) {
