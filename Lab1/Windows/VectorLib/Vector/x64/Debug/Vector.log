@@ -1,0 +1,40 @@
+﻿  Vector.cpp
+C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\Vector\Vector.h(20,9): warning C4251: 'Vector::x_': 'Number' needs to have dll-interface to be used by clients of 'Vector'
+  (compiling source file 'Vector.cpp')
+      C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\extern\include\Number.h(3,7):
+      see declaration of 'Number'
+  
+C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\Vector\Vector.h(21,9): warning C4251: 'Vector::y_': 'Number' needs to have dll-interface to be used by clients of 'Vector'
+  (compiling source file 'Vector.cpp')
+      C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\extern\include\Number.h(3,7):
+      see declaration of 'Number'
+  
+C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\Vector\Vector.h(40,30): warning C4190: 'GetRadius' has C-linkage specified, but returns 'Number' which is incompatible with C
+  (compiling source file 'Vector.cpp')
+      C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\extern\include\Number.h(3,7):
+      see declaration of 'Number'
+  
+C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\Vector\Vector.cpp(34,19): warning C4190: 'GetRadius' has C-linkage specified, but returns 'Number' which is incompatible with C
+      C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\extern\include\Number.h(3,7):
+      see declaration of 'Number'
+  
+  VectorConstants.cpp
+C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\Vector\Vector.h(20,9): warning C4251: 'Vector::x_': 'Number' needs to have dll-interface to be used by clients of 'Vector'
+  (compiling source file 'VectorConstants.cpp')
+      C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\extern\include\Number.h(3,7):
+      see declaration of 'Number'
+  
+C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\Vector\Vector.h(21,9): warning C4251: 'Vector::y_': 'Number' needs to have dll-interface to be used by clients of 'Vector'
+  (compiling source file 'VectorConstants.cpp')
+      C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\extern\include\Number.h(3,7):
+      see declaration of 'Number'
+  
+C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\Vector\Vector.h(40,30): warning C4190: 'GetRadius' has C-linkage specified, but returns 'Number' which is incompatible with C
+  (compiling source file 'VectorConstants.cpp')
+      C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\extern\include\Number.h(3,7):
+      see declaration of 'Number'
+  
+  Generating Code...
+Number.lib(Number.obj) : warning LNK4099: PDB 'Number.pdb' was not found with 'Number.lib(Number.obj)' or at 'C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\x64\Debug\Number.pdb'; linking object as if no debug info
+     Creating library C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\x64\Debug\Vector.lib and object C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\x64\Debug\Vector.exp
+  Vector.vcxproj -> C:\Users\alexsaharchuk\source\repos\Lab1\VectorLib\x64\Debug\Vector.dll

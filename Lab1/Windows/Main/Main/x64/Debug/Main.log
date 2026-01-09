@@ -1,0 +1,17 @@
+﻿  Main.cpp
+C:\Users\alexsaharchuk\source\repos\Lab1\Main\extern\include\Vector.h(20,9): warning C4251: 'Vector::x_': 'Number' needs to have dll-interface to be used by clients of 'Vector'
+  (compiling source file 'Main.cpp')
+      C:\Users\alexsaharchuk\source\repos\Lab1\Main\extern\include\Number.h(3,7):
+      see declaration of 'Number'
+  
+C:\Users\alexsaharchuk\source\repos\Lab1\Main\extern\include\Vector.h(21,9): warning C4251: 'Vector::y_': 'Number' needs to have dll-interface to be used by clients of 'Vector'
+  (compiling source file 'Main.cpp')
+      C:\Users\alexsaharchuk\source\repos\Lab1\Main\extern\include\Number.h(3,7):
+      see declaration of 'Number'
+  
+C:\Users\alexsaharchuk\source\repos\Lab1\Main\extern\include\Vector.h(40,30): warning C4190: 'GetRadius' has C-linkage specified, but returns 'Number' which is incompatible with C
+  (compiling source file 'Main.cpp')
+      C:\Users\alexsaharchuk\source\repos\Lab1\Main\extern\include\Number.h(3,7):
+      see declaration of 'Number'
+  
+  Main.vcxproj -> C:\Users\alexsaharchuk\source\repos\Lab1\Main\x64\Debug\Main.exe

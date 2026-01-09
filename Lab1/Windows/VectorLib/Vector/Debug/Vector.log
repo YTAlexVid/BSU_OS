@@ -1,0 +1,34 @@
+﻿  dllmain.cpp
+  Vector.cpp
+  VectorConstants.cpp
+  Generating Code...
+D:\IT\C++\OS\Lab1\VectorLib\Vector\Vector.h(20,9): warning C4251: 'Vector::x_': 'Number' needs to have dll-interface to be used by clients of 'Vector'
+  (compiling source file 'Vector.cpp')
+      D:\IT\C++\OS\Lab1\VectorLib\extern\include\Number.h(3,7):
+      see declaration of 'Number'
+  
+D:\IT\C++\OS\Lab1\VectorLib\Vector\Vector.h(21,9): warning C4251: 'Vector::y_': 'Number' needs to have dll-interface to be used by clients of 'Vector'
+  (compiling source file 'Vector.cpp')
+      D:\IT\C++\OS\Lab1\VectorLib\extern\include\Number.h(3,7):
+      see declaration of 'Number'
+  
+D:\IT\C++\OS\Lab1\VectorLib\Vector\Vector.h(20,9): warning C4251: 'Vector::x_': 'Number' needs to have dll-interface to be used by clients of 'Vector'
+  (compiling source file 'VectorConstants.cpp')
+      D:\IT\C++\OS\Lab1\VectorLib\extern\include\Number.h(3,7):
+      see declaration of 'Number'
+  
+D:\IT\C++\OS\Lab1\VectorLib\Vector\Vector.h(21,9): warning C4251: 'Vector::y_': 'Number' needs to have dll-interface to be used by clients of 'Vector'
+  (compiling source file 'VectorConstants.cpp')
+      D:\IT\C++\OS\Lab1\VectorLib\extern\include\Number.h(3,7):
+      see declaration of 'Number'
+  
+     Creating library D:\IT\C++\OS\Lab1\VectorLib\Debug\Vector.lib and object D:\IT\C++\OS\Lab1\VectorLib\Debug\Vector.exp
+Vector.obj : error LNK2019: unresolved external symbol "public: class Number __thiscall Number::operator+(class Number const &)const " (??HNumber@@QBE?AV0@ABV0@@Z) referenced in function "public: class Vector __thiscall Vector::operator+(class Vector const &)const " (??HVector@@QBE?AV0@ABV0@@Z)
+Vector.obj : error LNK2019: unresolved external symbol "public: class Number __thiscall Number::operator-(class Number const &)const " (??GNumber@@QBE?AV0@ABV0@@Z) referenced in function "public: class Vector __thiscall Vector::operator-(class Vector const &)const " (??GVector@@QBE?AV0@ABV0@@Z)
+Vector.obj : error LNK2019: unresolved external symbol "public: class Number __thiscall Number::operator*(class Number const &)const " (??DNumber@@QBE?AV0@ABV0@@Z) referenced in function "public: class Number __thiscall Vector::radius(void)const " (?radius@Vector@@QBE?AVNumber@@XZ)
+Vector.obj : error LNK2019: unresolved external symbol "public: class Number & __thiscall Number::operator+=(class Number const &)" (??YNumber@@QAEAAV0@ABV0@@Z) referenced in function "public: class Vector & __thiscall Vector::operator+=(class Vector const &)" (??YVector@@QAEAAV0@ABV0@@Z)
+Vector.obj : error LNK2019: unresolved external symbol "public: class Number & __thiscall Number::operator-=(class Number const &)" (??ZNumber@@QAEAAV0@ABV0@@Z) referenced in function "public: class Vector & __thiscall Vector::operator-=(class Vector const &)" (??ZVector@@QAEAAV0@ABV0@@Z)
+Vector.obj : error LNK2019: unresolved external symbol "public: class Number __thiscall Number::root(void)const " (?root@Number@@QBE?AV1@XZ) referenced in function "public: class Number __thiscall Vector::radius(void)const " (?radius@Vector@@QBE?AVNumber@@XZ)
+Vector.obj : error LNK2019: unresolved external symbol "public: static class Number __cdecl Number::atan2(class Number,class Number)" (?atan2@Number@@SA?AV1@V1@0@Z) referenced in function "public: class Number __thiscall Vector::angle(void)const " (?angle@Vector@@QBE?AVNumber@@XZ)
+D:\IT\C++\OS\Lab1\VectorLib\extern\lib\Number.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\IT\C++\OS\Lab1\VectorLib\Debug\Vector.dll : fatal error LNK1120: 7 unresolved externals
